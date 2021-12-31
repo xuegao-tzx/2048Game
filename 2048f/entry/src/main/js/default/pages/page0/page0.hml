@@ -1,0 +1,10 @@
+<div class="container">
+    <text class="title">
+        《2048小游戏》
+    </text>
+    <text class="title1">
+        开始游戏即默认同意我的隐私声明:www.xuegao-tzx.top/g2048h.html
+    </text>
+    <input class="btn" type="button" value="开始" onclick="ToStart"></input>
+    <input class="btn1" type="button" value="退出" onclick="ToClose"></input>
+</div>
