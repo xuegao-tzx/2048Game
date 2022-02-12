@@ -1,0 +1,25 @@
+
+t
+java:S3008	"YRename this field "Sqlmessage_URL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†â°úÿÿÿÿ
+p
+java:S3008
+"ZRename this field "Sqlmessage_USER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÑŒëÆ
+t
+java:S3008"^Rename this field "Sqlmessage_PASSWORD" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ºå¸ä
+O
+java:S1118":Add a private constructor to hide the implicit public one.(«Á´
+u
+java:S1104	"ZMake Sqlmessage_URL a static final constant or non-public and provide accessors if needed.(†â°úÿÿÿÿ
+q
+java:S1104
+"[Make Sqlmessage_USER a static final constant or non-public and provide accessors if needed.(ÑŒëÆ
+u
+java:S1104"_Make Sqlmessage_PASSWORD a static final constant or non-public and provide accessors if needed.(ºå¸ä
+O
+java:S1444	"4Make this "public static Sqlmessage_URL" field final(†â°úÿÿÿÿ
+K
+java:S1444
+"5Make this "public static Sqlmessage_USER" field final(ÑŒëÆ
+O
+java:S1444"9Make this "public static Sqlmessage_PASSWORD" field final(ºå¸ä
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(šÎËó

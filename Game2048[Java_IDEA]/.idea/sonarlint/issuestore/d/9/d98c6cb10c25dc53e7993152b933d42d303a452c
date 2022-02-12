@@ -1,0 +1,20 @@
+
+P
+java:S1118":Add a private constructor to hide the implicit public one.(¸¦ñÅ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(×¬÷¸
+N	java:S106"9Replace this use of System.out or System.err by a logger.(›‹¸å
+N	java:S106"9Replace this use of System.out or System.err by a logger.(è±‡•
+N	java:S106'"9Replace this use of System.out or System.err by a logger.(Ú§ÉÓ
+N	java:S1061"9Replace this use of System.out or System.err by a logger.(ôûØè
+S	java:S106;"9Replace this use of System.out or System.err by a logger.(Ó²Æøûÿÿÿÿ
+w
+java:S1488"bImmediately return this expression instead of assigning it to the temporary variable "connection".(ºÂŒn
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ò¨÷»
+j
+java:S2095-"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ƒ»ÊÞûÿÿÿÿ
+j
+java:S2095$"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ƒ»ÊÞûÿÿÿÿ
+j
+java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ƒ»ÊÞûÿÿÿÿ
+j
+java:S20957"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ƒ»ÊÞûÿÿÿÿ

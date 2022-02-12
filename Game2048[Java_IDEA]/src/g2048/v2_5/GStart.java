@@ -1,0 +1,62 @@
+package g2048.v2_5;
+
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+/**
+ * @author Xcl
+ * @date 2021/12/2 07:58
+ * @package g2048.v3
+ */
+class GStart extends JFrame {
+    private static final long serialVersionUID = -6718310314384392563L;
+    private final JPanel jp = new JPanel(new GridLayout(3, 1, 5, 5));
+
+    GStart(String st) {
+        super(st);
+        setLayout(new BorderLayout());
+        JButton[] btn;
+        btn = new JButton[3];
+        btn[0] = new JButton("开始游戏");
+        btn[1] = new JButton("管理员登陆");
+        btn[2] = new JButton("退出");
+        jp.add(btn[0]);
+        jp.add(btn[1]);
+        jp.add(btn[2]);
+        getContentPane().add(jp, BorderLayout.CENTER);
+        setSize(450, 450);
+        setLocationRelativeTo(null);
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setResizable(false);
+        setVisible(true);
+        Login.stt1 = null;
+        Login lgf = new Login();
+        btn[0].addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                JOptionPane.showMessageDialog(null, "根据《中华人民共和国防沉迷游戏法规定》，您需要登录/注册" +
+                        "后方可开始游戏。", "提示", JOptionPane.WARNING_MESSAGE);
+                Login.stt1 = "用户";
+                Thread t1 = new Thread(lgf);
+                t1.start();
+            }
+        });
+        btn[1].addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                Login.stt1 = "管理员";
+                Thread t2 = new Thread(lgf);
+                t2.start();
+            }
+        });
+        btn[2].addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                System.exit(0);
+            }
+        });
+    }
+
+}

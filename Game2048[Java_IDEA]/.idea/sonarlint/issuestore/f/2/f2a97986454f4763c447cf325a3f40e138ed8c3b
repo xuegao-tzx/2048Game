@@ -1,0 +1,17 @@
+
+R
+java:S1854"7Remove this useless assignment to local variable "rs1".(§Óîışÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Ó¾«
+V	java:S125"<This block of commented-out lines of code should be removed.(’ƒÍöøÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(÷¬íáÿÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(§¾ùÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(æ¸ûü
+N	java:S106"9Replace this use of System.out or System.err by a logger.(İœê‰
+C
+java:S1481"(Remove this unused "rs1" local variable.(§Óîışÿÿÿÿ
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(‚…Û
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ò¨÷»
+b
+java:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(ìï‡Àûÿÿÿÿ
+^
+java:S2095"HUse try-with-resources or close this "Connection" in a "finally" clause.(¯©“¬

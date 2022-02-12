@@ -1,0 +1,44 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+apply plugin: 'com.huawei.ohos.app'
+
+//For instructions on signature configuration, see https://developer.harmonyos.com/cn/docs/documentation/doc-guides/ide_debug_device-0000001053822404#section1112183053510
+ohos {
+    signingConfigs {
+        debug {
+            storeFile file('D:\\Gitlab\\Calculator-HarmonyOS-Full\\HOCal\\key\\xclcal.p12')
+            storePassword '000000188445F98C50F77AD54D972EA8AF7C844B45D0040328A695CE74C9E893C34FD7C935FAF115'
+            keyAlias = 'xclcal'
+            keyPassword '00000018D9A8F298ADDF68272A0002370AC7C39FA90960B724D294E85DBEE3E55D4B5522B1E6CC80'
+            signAlg = 'SHA256withECDSA'
+            profile file('D:\\Downloads\\xcl20481Debug.p7b')
+            certpath file('D:\\Gitlab\\Calculator-HarmonyOS-Full\\HOCal\\key\\xclcald.cer')
+        }
+    }
+    compileSdkVersion 6
+}
+
+buildscript {
+    repositories {
+        maven {
+            url 'https://repo.huaweicloud.com/repository/maven/'
+        }
+        maven {
+            url 'https://developer.huawei.com/repo/'
+        }
+    }
+    dependencies {
+        classpath 'com.huawei.ohos:hap:3.0.5.2'
+        classpath 'com.huawei.ohos:decctest:1.2.7.2'
+    }
+}
+
+allprojects {
+    repositories {
+        maven {
+            url 'https://repo.huaweicloud.com/repository/maven/'
+        }
+        maven {
+            url 'https://developer.huawei.com/repo/'
+        }
+    }
+}
